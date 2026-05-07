@@ -7,112 +7,81 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body data-lang="es">
+    <div id="promo-banner" class="promo-banner"></div>
     <nav>
         <div class="nav-container">
             <div class="logo">// Clinox <span>Agency</span></div>
             <div class="nav-links">
-                <a href="#services">Servicios</a>
-                <a href="#work">Proyectos</a>
-                <a href="https://wa.me/573011960457" class="btn-nav">Contacto</a>
+                <a href="#services" data-i18n="nav-services">Servicios</a>
+                <a href="#work" data-i18n="nav-work">Proyectos</a>
+                <a href="https://wa.me/573011960457" class="btn-nav" data-i18n="nav-contact">Contacto</a>
             </div>
         </div>
     </nav>
-
     <header class="hero">
         <div class="hero-content">
             <div class="badge">// Welcome to Clinox</div>
-            <h1>Web Development & <span>Page Creation</span></h1>
-            <p>Transformamos ideas en experiencias digitales excepcionales. Construimos soluciones modernas que impulsan resultados reales.</p>
+            <h1 data-i18n="hero-title">Web Development & <span>Page Creation</span></h1>
+            <p data-i18n="hero-desc">Transformamos ideas en experiencias digitales excepcionales.</p>
             <div class="hero-actions">
-                <a href="#services" class="btn-main">Empezar →</a>
-                <a href="#work" class="btn-sub">Ver proyectos</a>
+                <a href="#services" class="btn-main" data-i18n="hero-btn-start">Empezar →</a>
+                <a href="#work" class="btn-sub" data-i18n="hero-btn-work">Ver proyectos</a>
             </div>
         </div>
-        <div class="scroll-indicator">Scroll to explore</div>
     </header>
-
-    <section id="services" class="section">
+    <section id="work" class="section">
         <div class="section-header">
-            <span class="sub">// Choose your plan</span>
-            <h2>Nuestros Servicios</h2>
-        </div>
-        <div class="services-grid">
-            <div class="service-card">
-                <div class="card-tag">standard.config.ts</div>
-                <h3>Página Normal</h3>
-                <div class="price">$700.000 COP</div>
-                <ul>
-                    <li>Hasta 5 secciones</li>
-                    <li>Optimización SEO Base</li>
-                    <li>Integración WhatsApp</li>
-                    <li>Soporte 1 mes</li>
-                </ul>
-                <a href="https://paypal.me/KraqPro/700000" class="btn-card" target="_blank">Pagar por PayPal</a>
-            </div>
-            <div class="service-card popular">
-                <div class="card-tag">ecommerce.config.ts <span>POPULAR</span></div>
-                <h3>E-commerce</h3>
-                <div class="price">$1.300.000 COP</div>
-                <ul>
-                    <li>Catálogo de Productos</li>
-                    <li>Pasarela de Pagos</li>
-                    <li>Panel Administrativo</li>
-                    <li>Gestión de Inventario</li>
-                </ul>
-                <a href="https://paypal.me/KraqPro/1300000" class="btn-card" target="_blank">Pagar por PayPal</a>
-            </div>
-            <div class="service-card">
-                <div class="card-tag">full_opt.config.ts <span>PREMIUM</span></div>
-                <h3>Real Full Opt</h3>
-                <div class="price">$2.000.000 COP</div>
-                <ul>
-                    <li>Optimización Extrema</li>
-                    <li>Arquitectura Escalable</li>
-                    <li>Integración API Full</li>
-                    <li>Soporte VIP 24/7</li>
-                </ul>
-                <a href="https://paypal.me/KraqPro/2000000" class="btn-card" target="_blank">Pagar por PayPal</a>
-            </div>
-        </div>
-        <p style="margin-top: 40px; color: #888; font-size: 0.9rem;">* Pagos vía transferencia PayPal. El costo final puede variar según requerimientos específicos.</p>
-    </section>
-
-    <section id="work" class="section work-section">
-        <div class="section-header">
-            <span class="sub">// Recent projects</span>
-            <h2>Nuestro Trabajo</h2>
+            <span class="sub">// Real-world examples</span>
+            <h2 data-i18n="work-title">Demos en Vivo</h2>
         </div>
         <div class="work-grid">
             <div class="work-item">
                 <div class="work-img">🍴</div>
                 <div class="work-info">
                     <h3>La Trattoria</h3>
-                    <p>Plataforma Gastronómica</p>
+                    <a href="restaurante.html" class="btn-demo">Ver Demo Real ⚡</a>
                 </div>
             </div>
             <div class="work-item">
                 <div class="work-img">🏢</div>
                 <div class="work-info">
                     <h3>Logistics Pro</h3>
-                    <p>Solución Corporativa</p>
+                    <a href="empresa.html" class="btn-demo">Ver Demo Real ⚡</a>
+                </div>
+            </div>
+            <div class="work-item">
+                <div class="work-img">🛍️</div>
+                <div class="work-info">
+                    <h3>Fashion Store</h3>
+                    <a href="tienda.html" class="btn-demo">Ver Demo Real ⚡</a>
                 </div>
             </div>
         </div>
     </section>
-
-    <footer>
-        <div class="footer-content">
-            <div class="footer-col">
-                <div class="logo">// Clinox</div>
-                <p>Ubicados en Medellín, código para el mundo.</p>
+    <section id="services" class="section">
+        <h2 data-i18n="services-title">Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Normal</h3>
+                <div class="price">$700.000 COP</div>
+                <a href="https://paypal.me/KraqPro/700000" class="btn-card">PayPal</a>
             </div>
-            <div class="footer-col">
-                <h4>Let's Connect</h4>
-                <p>contactoktweb@gmail.com</p>
-                <p>+57 301 196 0457</p>
+            <div class="service-card popular">
+                <h3>E-commerce</h3>
+                <div class="price">$1.300.000 COP</div>
+                <a href="https://paypal.me/KraqPro/1300000" class="btn-card">PayPal</a>
+            </div>
+            <div class="service-card">
+                <h3>Full Opt</h3>
+                <div class="price">$2.000.000 COP</div>
+                <a href="https://paypal.me/KraqPro/2000000" class="btn-card">PayPal</a>
             </div>
         </div>
+    </section>
+    <footer>
+        <p>xomaticpvp@gmail.com | +57 301 196 0457</p>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
