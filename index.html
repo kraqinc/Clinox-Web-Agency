@@ -3,107 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinox Web Agency | kraqinc</title>
+    <title>Clinox Web Agency | Digital Solutions</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Clinox <span>Agency</span></div>
-            <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#quienes-somos">Quiénes Somos</a></li>
-                <li><a href="#precios">Precios</a></li>
-                <li><a href="https://clinox.netlify.app" class="btn-clinox" target="_blank">Tienda Clinox 🚀</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">// Clinox <span>Agency</span></div>
+            <div class="nav-links">
+                <a href="#services">Servicios</a>
+                <a href="#work">Proyectos</a>
+                <a href="https://wa.me/573011960457" class="btn-nav">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="badge">// Welcome to Clinox</div>
+            <h1>Web Development & <span>Page Creation</span></h1>
+            <p>Transformamos ideas en experiencias digitales excepcionales. Construimos soluciones modernas que impulsan resultados reales.</p>
+            <div class="hero-actions">
+                <a href="#services" class="btn-main">Empezar →</a>
+                <a href="#work" class="btn-sub">Ver proyectos</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">Scroll to explore</div>
     </header>
 
-    <section id="inicio" class="hero">
-        <div class="hero-content">
-            <h1>Expertos en <span>Conversión Digital</span></h1>
-            <p>En kraqinc no hacemos simples webs. Construimos máquinas de facturación personalizadas para tu negocio.</p>
-            <div class="hero-btns">
-                <a href="#precios" class="btn-primary">Ver Planes</a>
-                <a href="#portfolio" class="btn-secondary">Portafolio</a>
-            </div>
+    <section id="services" class="section">
+        <div class="section-header">
+            <span class="sub">// Choose your plan</span>
+            <h2>Nuestros Servicios</h2>
         </div>
-    </section>
-
-    <section id="quienes-somos" class="about">
-        <h2>¿Quiénes Somos?</h2>
-        <p style="max-width: 800px; margin: 20px auto;">Somos un equipo de desarrolladores y creativos liderados por <b>kraqinc</b>, enfocados en cerrar la brecha digital para negocios locales en Medellín y el mundo.</p>
-    </section>
-
-    <section class="what-we-do">
-        <h2>¿Qué Hacemos?</h2>
-        <div class="portfolio-grid">
-            <div class="portfolio-item">
-                <div class="icon">🚀</div>
-                <h3>Estrategia</h3>
-                <p>Analizamos tu competencia y definimos el mejor camino para vender.</p>
-            </div>
-            <div class="portfolio-item">
-                <div class="icon">💻</div>
-                <h3>Desarrollo</h3>
-                <p>Código limpio, rápido y optimizado para Google (SEO).</p>
-            </div>
-            <div class="portfolio-item">
-                <div class="icon">📈</div>
-                <h3>Escala</h3>
-                <p>Integramos herramientas que automatizan tus ventas 24/7.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="precios" class="prices">
-        <h2>Planes y Precios</h2>
-        <div class="prices-grid">
-            <div class="price-card">
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="card-tag">landing.config.ts</div>
                 <h3>Landing Page</h3>
-                <div class="cost">$300k</div>
+                <div class="price">$200 USD</div>
                 <ul>
-                    <li>Diseño One-Page</li>
-                    <li>Optimizado para WA</li>
-                    <li>Hosting incluido</li>
+                    <li>Optimización SEO</li>
+                    <li>Diseño Custom</li>
+                    <li>Hosting Incluido</li>
+                    <li>Integración WhatsApp</li>
                 </ul>
-                <a href="https://wa.me/573011960457" class="btn-secondary">Elegir</a>
+                <a href="restaurante.html" class="btn-card">Ver Demo</a>
             </div>
-            <div class="price-card featured">
-                <h3>Business Pro</h3>
-                <div class="cost">$700k</div>
-                <ul>
-                    <li>Multipage (5 secciones)</li>
-                    <li>SEO Avanzado</li>
-                    <li>Formularios dinámicos</li>
-                </ul>
-                <a href="https://wa.me/573011960457" class="btn-primary">Elegir</a>
-            </div>
-            <div class="price-card">
+            <div class="service-card popular">
+                <div class="card-tag">ecommerce.config.ts <span>POPULAR</span></div>
                 <h3>E-commerce</h3>
-                <div class="cost">$1.2M</div>
+                <div class="price">$500 USD</div>
                 <ul>
-                    <li>Tienda completa</li>
-                    <li>Pasarela de pagos</li>
-                    <li>Panel de control</li>
+                    <li>Pasarela de Pagos</li>
+                    <li>Panel Admin</li>
+                    <li>Gestión Inventario</li>
+                    <li>SEO Avanzado</li>
                 </ul>
-                <a href="https://wa.me/573011960457" class="btn-secondary">Elegir</a>
+                <a href="tienda.html" class="btn-card">Ver Demo</a>
+            </div>
+            <div class="service-card">
+                <div class="card-tag">custom.config.ts</div>
+                <h3>Custom Solution</h3>
+                <div class="price">Let's Talk</div>
+                <ul>
+                    <li>Desarrollo a medida</li>
+                    <li>Arquitectura escalable</li>
+                    <li>Integración API</li>
+                    <li>Soporte Full</li>
+                </ul>
+                <a href="empresa.html" class="btn-card">Ver Demo</a>
             </div>
         </div>
     </section>
 
-    <section id="portfolio" class="portfolio">
-        <h2>Demos por Nicho</h2>
-        <div class="portfolio-grid">
-            <a href="restaurante.html" class="portfolio-item">🍴 Restaurantes</a>
-            <a href="empresa.html" class="portfolio-item">🏢 Empresas</a>
-            <a href="tienda.html" class="portfolio-item">🛍️ Tiendas</a>
+    <section id="work" class="section work-section">
+        <div class="section-header">
+            <span class="sub">// Recent projects</span>
+            <h2>Nuestro Trabajo</h2>
+        </div>
+        <div class="work-grid">
+            <div class="work-item">
+                <div class="work-img">🍴</div>
+                <div class="work-info">
+                    <h3>La Trattoria</h3>
+                    <p>Plataforma Gastronómica</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <div class="work-img">🏢</div>
+                <div class="work-info">
+                    <h3>Logistics Pro</h3>
+                    <p>Solución Corporativa</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Clinox Web Agency | Medellín 🔥</p>
+        <div class="footer-content">
+            <div class="footer-col">
+                <div class="logo">// Clinox</div>
+                <p>Ubicados en Medellín, código para el mundo.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Let's Connect</h4>
+                <p>contactoktweb@gmail.com</p>
+                <p>+57 301 196 0457</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
