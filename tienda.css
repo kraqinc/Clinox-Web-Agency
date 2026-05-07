@@ -1,1 +1,10 @@
-body { background: #f4f4f4; color: #333333; font-family: sans-serif; text-align: center; padding-top: 100px; } a { color: #ff007f; }
+
+body { background: #f0f2f5; margin: 0; font-family: 'Poppins', sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; }
+.shop-ui { background: white; width: 350px; padding: 40px; border-radius: 30px; box-shadow: 0 15px 30px rgba(0,0,0,0.1); text-align: center; }
+nav { font-weight: 900; font-size: 1.5rem; margin-bottom: 30px; color: #ff007f; }
+.img-box { background: #fff0f6; height: 150px; display: flex; align-items: center; justify-content: center; font-size: 5rem; border-radius: 20px; margin-bottom: 20px; }
+h2 { font-size: 1.4rem; margin-bottom: 10px; color: #333; }
+p { font-size: 0.9rem; color: #777; margin-bottom: 20px; }
+.price { font-size: 2rem; font-weight: bold; color: #333; margin-bottom: 20px; }
+button { background: #ff007f; color: white; border: none; padding: 12px 30px; border-radius: 50px; font-weight: bold; cursor: pointer; width: 100%; }
+.home-link { display: block; margin-top: 20px; color: #777; text-decoration: none; font-size: 0.8rem; }
