@@ -87,3 +87,7 @@ h2 { font-size: 3rem; font-weight: 800; letter-spacing: -1px; }
 footer { border-top: 1px solid var(--border); padding: 80px 5%; margin-top: 100px; }
 .footer-content { max-width: 1200px; margin: auto; display: flex; justify-content: space-between; gap: 40px; }
 .footer-col p { color: var(--text-dim); margin-top: 15px; }
+
+
+.promo-banner { background: var(--primary); color: #000; text-align: center; padding: 10px; font-weight: 800; display: none; }
+.btn-demo { display: block; margin-top: 10px; border: 1px solid var(--primary); color: var(--primary); text-decoration: none; padding: 5px; text-align: center; }
