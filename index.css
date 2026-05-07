@@ -40,3 +40,63 @@ nav { display: flex; justify-content: space-between; align-items: center; max-wi
 .view-demo { color: var(--primary); font-weight: bold; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; }
 
 footer { padding: 50px; text-align: center; border-top: 1px solid rgba(255,255,255,0.05); color: #64748b; }
+
+
+/* --- MOBILE & GENERAL OPTIMIZATION --- */
+@media (max-width: 768px) {
+    h1 { font-size: 2.5rem !important; line-height: 1.1 !important; }
+    h2 { font-size: 2rem !important; }
+    p { font-size: 1rem !important; }
+    
+    .nav-links { display: none; } /* Simplificación para móvil */
+    .hero { padding: 80px 20px !important; height: auto !important; min-height: 80vh; }
+    .hero-btns { display: flex; flex-direction: column; gap: 15px; }
+    .hero-btns a { margin: 0 !important; width: 100%; text-align: center; }
+    
+    .portfolio-grid, .service-grid, .prices-grid { 
+        grid-template-columns: 1fr !important; 
+        gap: 20px !important;
+        padding: 0 10px;
+    }
+    
+    .container, .content, .shop-ui { 
+        width: 95% !important; 
+        margin: auto; 
+        padding: 20px !important;
+    }
+    
+    .features { flex-direction: column; gap: 10px !important; }
+}
+
+/* --- SECCIONES NUEVAS --- */
+.about, .what-we-do, .prices {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.about { background: rgba(255,255,255,0.02); }
+
+.prices-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.price-card {
+    background: var(--card, #1e293b);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.3s;
+}
+
+.price-card.featured {
+    border-color: var(--primary);
+    transform: scale(1.05);
+}
+
+.price-card h3 { font-size: 1.5rem; margin-bottom: 10px; }
+.price-card .cost { font-size: 2.5rem; font-weight: 800; color: var(--primary); margin: 20px 0; }
+.price-card ul { list-style: none; padding: 0; margin-bottom: 30px; color: #94a3b8; }
+.price-card li { margin-bottom: 10px; }
