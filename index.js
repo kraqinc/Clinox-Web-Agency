@@ -1,1 +1,1 @@
-console.log('Clinox Web Agency cargada 🚀');
+console.log('Clinox Pro Loaded');
