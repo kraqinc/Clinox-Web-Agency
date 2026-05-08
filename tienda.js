@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', () => { console.log('Tienda Demo Loaded'); });
