@@ -1,12 +1,1 @@
-
-:root { --blue: #0056b3; --navy: #001529; --light: #f0f2f5; }
-body { margin: 0; font-family: 'Plus Jakarta Sans', sans-serif; background: var(--light); color: #333; }
-.corp-nav { background: var(--navy); padding: 20px 5%; display: flex; justify-content: space-between; align-items: center; color: white; }
-.corp-nav .logo span { color: var(--blue); }
-.corp-hero { background: var(--navy); color: white; padding: 120px 10%; text-align: center; }
-.corp-hero h1 { font-size: 3.5rem; margin-bottom: 20px; }
-.corp-hero h1 span { color: var(--blue); }
-.stats { display: flex; justify-content: center; gap: 60px; margin-top: 50px; }
-.stats span { font-size: 2.5rem; font-weight: 800; color: var(--blue); display: block; }
-.service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; padding: 80px 0; }
-.s-card { background: white; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 4px solid var(--blue); }
+:root { --primary: #003366; --accent: #00ccff; --dark: #001a33; --light: #f8f9fa; }* { margin: 0; padding: 0; box-sizing: border-box; }body { font-family: sans-serif; background: var(--light); color: #333; }.corp-nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 5%; background: white; border-bottom: 1px solid #ddd; position: sticky; top: 0; z-index: 100; }.logo { font-weight: 900; font-size: 1.5rem; color: var(--primary); }.links a { text-decoration: none; color: #555; margin-left: 20px; }.btn-cta { background: var(--primary); color: white !important; padding: 10px 20px; border-radius: 5px; }.hero { padding: 100px 10%; background: var(--dark); color: white; text-align: center; }.hero h1 { font-size: 3.5rem; margin-bottom: 20px; }.stats { display: flex; justify-content: center; gap: 50px; margin-top: 50px; }.stat-item .number { font-size: 3rem; font-weight: 900; color: var(--accent); display: block; }.services { padding: 80px 10%; text-align: center; }.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px; }.card { background: white; padding: 40px; border-radius: 5px; border-top: 5px solid var(--primary); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }footer { background: var(--primary); color: white; padding: 40px; text-align: center; }
